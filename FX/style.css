@@ -1,0 +1,57 @@
+.shiny-orange {
+    -fx-background-color: 
+        linear-gradient(#ffd65b, #e68400),
+        linear-gradient(#ffef84, #f2ba44),
+        linear-gradient(#ffea6a, #efaa22),
+        linear-gradient(#ffe657 0%, #f8c202 50%, #eea10b 100%),
+        linear-gradient(from 0% 0% to 15% 50%, rgba(255,255,255,0.9), rgba(255,255,255,0));
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: #654b00;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-padding: 10 20 10 20;
+}
+
+.shiny-green {
+    -fx-background-color: 
+        linear-gradient(#54f76a, #44d156),
+        linear-gradient(#5ef372, #3daa4c),
+        linear-gradient(#3add50, #2edf45),
+        linear-gradient(#38da4e 0%, #35b146 50%, #239c33 100%),
+        linear-gradient(from 0% 0% to 15% 50%, rgba(255,255,255,0.9), rgba(255,255,255,0));
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: #654b00;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-padding: 10 20 10 20;
+}
+.shiny-orange-pressed {
+    -fx-background-color: 
+        linear-gradient(#fdcb35, #e68400),
+        linear-gradient(#f1db48, #ebae2b),
+        linear-gradient(#f3d827, #d19b2e),
+        linear-gradient(#c5ab16 0%, #b49627 50%, #bb8519 100%),
+        linear-gradient(from 0% 0% to 15% 50%, rgba(255,255,255,0.9), rgba(255,255,255,0));
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: #654b00;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-padding: 10 20 10 20;
+}
+.shiny-blue {
+    -fx-background-color: 
+        linear-gradient(#546cf7, #3c55e4),
+        linear-gradient(#71b1ec, #388cdb),
+        linear-gradient(#6a97c2, #30addf),
+        linear-gradient(#27a7e2 0%, #1d8aac 50%, #156483 100%),
+        linear-gradient(from 0% 0% to 15% 50%, rgba(255,255,255,0.9), rgba(255,255,255,0));
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: #654b00;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-padding: 10 20 10 20;
+}

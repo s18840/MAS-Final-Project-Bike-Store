@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="rootPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.PlatnopscPrzetwarzanaController">
+   <children>
+      <GridPane layoutX="-2.0" prefHeight="400.0" prefWidth="606.0">
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints maxHeight="101.19998779296876" minHeight="10.0" prefHeight="72.4" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="128.0" minHeight="10.0" prefHeight="128.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="228.60001220703128" minHeight="10.0" prefHeight="158.19998779296878" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <children>
+            <Label prefHeight="46.0" prefWidth="299.0" text="Płatność jest przetwarzana" textAlignment="CENTER" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Label>
+            <Button fx:id="guzikOk3" mnemonicParsing="false" onAction="#guzikOk3OnAction" prefHeight="54.0" prefWidth="83.0" styleClass="shiny-blue" stylesheets="@../style.css" text="OK" GridPane.halignment="CENTER" GridPane.rowIndex="2" />
+            <Label prefHeight="46.0" prefWidth="132.0" text="Dziekujemy" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="TOP">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Label>
+         </children>
+      </GridPane>
+   </children>
+</AnchorPane>

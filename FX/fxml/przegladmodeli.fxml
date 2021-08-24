@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="454.0" prefWidth="638.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <GridPane prefHeight="454.0" prefWidth="638.0">
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints maxHeight="423.4" minHeight="10.0" prefHeight="403.8000244140625" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="222.60001220703126" minHeight="10.0" prefHeight="50.19997558593752" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <children>
+            <Button mnemonicParsing="false" styleClass="shiny-green" text="Zamówienie" wrapText="true" GridPane.halignment="RIGHT" GridPane.rowIndex="1">
+               <GridPane.margin>
+                  <Insets right="50.0" />
+               </GridPane.margin>
+            </Button>
+            <Pane prefHeight="200.0" prefWidth="200.0">
+               <children>
+                  <ListView layoutY="52.0" prefHeight="351.0" prefWidth="638.0" />
+                  <Label layoutX="57.0" layoutY="22.0" text="Model" />
+                  <Label layoutX="173.0" layoutY="22.0" text="Typ" />
+                  <Label layoutX="294.0" layoutY="22.0" text="Opis" />
+                  <Label layoutX="444.0" layoutY="22.0" text="Waga" />
+                  <Label layoutX="543.0" layoutY="22.0" text="Cena" />
+               </children>
+            </Pane>
+            <Button mnemonicParsing="false" styleClass="shiny-orange" text="Dodaj" wrapText="true" GridPane.rowIndex="1">
+               <GridPane.margin>
+                  <Insets left="50.0" />
+               </GridPane.margin>
+            </Button>
+         </children>
+      </GridPane>
+   </children>
+   <stylesheets>
+      <URL value="@../style.css" />
+      <URL value="@../style.css" />
+   </stylesheets>
+</AnchorPane>
